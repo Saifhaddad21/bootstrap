@@ -1,3 +1,17 @@
+:root {
+    --dark-color: #19283f;
+}
+
 body {
     font-family: "Roboto", serif;
+    height: 10000px;
 }
+
+/* Start:Navbar */
+.navbar {
+    background-color: #19283f;
+}
+.navbar .navbar-nav .nav-link {
+    
+}
+/* End:Navbar */
