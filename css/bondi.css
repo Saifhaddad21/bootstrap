@@ -1,6 +1,8 @@
 :root {
     --dark-color: #19283f;
     --green-color: #33d1cc;
+    --red-color: #ff3150;
+    --yellow-color: #ffc400;
 }
 
 body {
@@ -14,6 +16,15 @@ body {
 }
 .navbar .navbar-nav .nav-link {
     color: white;
+}
+.main-btn { 
+    background-color: var(--red-color);
+    color: var(--yellow-color);
+    padding: 0.5rem 1rem;
+}
+
+.main-btn:hover {
+    color: var(--yellow-color);
 }
 .navbar .navbar-nav .nav-link.active,
 .navbar .navbar-nav .nav-link:focus,
@@ -40,5 +51,10 @@ body {
 .navbar .navbar-toggler[aria-expandad="true"]{
     border-color: var(--green-color);
 }
-
 /* End:Navbar */
+/* Start=Landing */
+.landing {
+    background-color: var(--dark-color);
+    min-height: calc(100vh-72px);
+}
+/* End=Landing */
