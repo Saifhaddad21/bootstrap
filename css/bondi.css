@@ -11,6 +11,10 @@ body {
     height: 10000px;
 }
 
+.navbar .container img {
+    height: 34px;
+    width: 100px;
+}
 /* Start:Navbar */
 .navbar {
     background-color: var(--dark-color);
@@ -58,6 +62,7 @@ body {
     background-color: var(--dark-color);
     min-height: calc(100vh-72px);
 }
+
 
 .main-title::after{
     content: '';
