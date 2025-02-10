@@ -100,4 +100,24 @@ color: var(--section-color);
 .our-work {
     background-color: var(--section-color);
 }
+
+.our-work .active {
+background-color: var(--red-color);
+color: var(--yellow-color);
+}
+
+.our-work .active ul li{
+    padding: 5px;
+    cursor: pointer;
+    margin: 2px;
+}
+.our-work .active ul li:not(.active):hover{
+    color: var(--red-color);
+}
+
+.our-work .box {
+    padding: 5px;
+    overflow: hidden;
+    position: relative;
+}
 /* End-Our-Work */
