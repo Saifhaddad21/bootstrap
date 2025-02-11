@@ -113,12 +113,17 @@ color: var(--section-color);
 .our-work .active {
 background-color: var(--red-color);
 color: var(--yellow-color);
+width: 55px;
 }
 
 .our-work .active ul li{
     padding: 5px;
     cursor: pointer;
     margin: 2px;
+}
+.our-work ul 
+li:not(.active):hover {
+    color: var(--red-color);
 }
 .our-work .active ul li:not(.active):hover{
     color: var(--red-color);
